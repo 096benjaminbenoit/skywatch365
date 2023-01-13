@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+
+body {
+  background-color: black;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/256/843/original/shimmering-dust-particles-on-black-background-free-video.jpg);
+  background-size: 50%;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+body header h1 {
+  font-size: 16px;
+  margin-left: 10px;
+  color: white;
+}
+body header svg {
+  width: 50px;
+  -o-object-fit: content;
+     object-fit: content;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  body main {
+    flex-direction: row;
+  }
+}
+body main div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+@media screen and (min-width: 768px) {
+  body main div {
+    margin-right: 20px;
+  }
+}
+body main div h2 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  body main div h2 {
+    font-size: 16px;
+  }
+}
+body main div img {
+  width: 270px;
+  height: 380px;
+  border: solid white 5px;
+}
+@media screen and (min-width: 768px) {
+  body main div img {
+    width: 300px;
+    height: 420px;
+  }
+}
+body main p {
+  color: white;
+  font-size: 10px;
+  text-align: justify;
+  width: 300px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  body main p {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=style.css.map */
