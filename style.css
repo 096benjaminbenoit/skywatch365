@@ -178,7 +178,7 @@ body main .infos h2 {
     font-size: 20px;
   }
 }
-body main .infos img {
+body main .infos a img {
   width: 270px;
   height: 350px;
   border: solid white 5px;
@@ -186,15 +186,21 @@ body main .infos img {
      object-fit: cover;
 }
 @media screen and (min-width: 576px) {
-  body main .infos img {
-    width: 300px;
+  body main .infos a img {
+    width: 350px;
     height: 420px;
   }
 }
 @media screen and (min-width: 1024px) {
-  body main .infos img {
-    width: 450px;
+  body main .infos a img {
+    width: 500px;
     height: 650px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body main .infos a img {
+    width: 600px;
+    height: 750px;
   }
 }
 body main .infos .sub-infos {
@@ -217,7 +223,7 @@ body main p {
 @media screen and (min-width: 576px) {
   body main p {
     font-size: 14px;
-    width: 300px;
+    width: 350px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -232,6 +238,13 @@ body main p {
     width: 450px;
     height: 650px;
     margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body main p {
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 70px;
   }
 }
 body footer {

@@ -5,7 +5,7 @@ fetch("https://api.nasa.gov/planetary/apod?api_key=zX3Mvfcz7iJYZeGozyZyHqh4Z8Hct
 
 .then (function(data) {
     const infos = data
-    console.log(data)
+    //console.log(data)
 
 
     const mainInfos = document.getElementById('main-infos');
@@ -15,12 +15,12 @@ fetch("https://api.nasa.gov/planetary/apod?api_key=zX3Mvfcz7iJYZeGozyZyHqh4Z8Hct
     newDivInfos.classList.add('infos');
 
     const newTitle = document.createElement('h2');
-    mainInfos.append(newTitle);
+    newDivInfos.append(newTitle);
     newTitle.innerHTML = data.title;
 
     const link = document.createElement('a');
-    mainInfos.append(link);
-    link.href = data.url;
+    newDivInfos.append(link);
+    link.href = data.hdurl;
     link.getAttribute('target', 'blank');
 
     const img = document.createElement('img');

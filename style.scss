@@ -140,20 +140,27 @@ body {
                 }
             }
 
-            img {
-                width: 270px;
-                height: 350px;
-                border: solid white 5px;
-                object-fit: cover;
+            a {
+                img {
+                    width: 270px;
+                    height: 350px;
+                    border: solid white 5px;
+                    object-fit: cover;
+    
+                    @media screen and (min-width: 576px) {
+                        width: 350px;
+                        height: 420px;
+                    }
+    
+                    @media screen and (min-width: 1024px) {
+                        width: 500px;
+                        height: 650px;
+                    }
 
-                @media screen and (min-width: 576px) {
-                    width: 300px;
-                    height: 420px;
-                }
-
-                @media screen and (min-width: 1024px) {
-                    width: 450px;
-                    height: 650px;
+                    @media screen and (min-width: 1440px) {
+                        width: 600px;
+                        height: 750px;
+                    }
                 }
             }
 
@@ -179,7 +186,7 @@ body {
 
             @media screen and (min-width: 576px) {
                 font-size: 14px;
-                width: 300px;
+                width: 350px;
             }
 
             @media screen and (min-width: 768px) {
@@ -192,6 +199,12 @@ body {
                 width: 450px;
                 height: 650px;
                 margin-top: 0px;
+            }
+
+            @media screen and (min-width: 1440px) {
+                font-size: 20px;
+                padding: 0;
+                margin-bottom: 70px;
             }
         }
     }
