@@ -110,7 +110,7 @@ body {
         @media screen and  (min-width: 768px) {
             flex-direction: row;
             justify-content: center;
-            align-items: center;    
+            align-items: flex-start;    
         }
 
         .infos {
@@ -154,12 +154,12 @@ body {
     
                     @media screen and (min-width: 1024px) {
                         width: 500px;
-                        height: 650px;
+                        height: 500px;
                     }
 
                     @media screen and (min-width: 1440px) {
                         width: 600px;
-                        height: 750px;
+                        height: 600px;
                     }
                 }
             }
@@ -190,7 +190,7 @@ body {
             }
 
             @media screen and (min-width: 768px) {
-                padding-top: 25px;  
+                padding-top: 60px;  
                 height: 420px;
             }
 
@@ -203,7 +203,6 @@ body {
 
             @media screen and (min-width: 1440px) {
                 font-size: 20px;
-                padding: 0;
                 margin-bottom: 70px;
             }
         }

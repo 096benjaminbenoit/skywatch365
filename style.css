@@ -145,7 +145,7 @@ body main {
   body main {
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 body main .infos {
@@ -194,13 +194,13 @@ body main .infos a img {
 @media screen and (min-width: 1024px) {
   body main .infos a img {
     width: 500px;
-    height: 650px;
+    height: 500px;
   }
 }
 @media screen and (min-width: 1440px) {
   body main .infos a img {
     width: 600px;
-    height: 750px;
+    height: 600px;
   }
 }
 body main .infos .sub-infos {
@@ -228,7 +228,7 @@ body main p {
 }
 @media screen and (min-width: 768px) {
   body main p {
-    padding-top: 25px;
+    padding-top: 60px;
     height: 420px;
   }
 }
@@ -243,7 +243,6 @@ body main p {
 @media screen and (min-width: 1440px) {
   body main p {
     font-size: 20px;
-    padding: 0;
     margin-bottom: 70px;
   }
 }
