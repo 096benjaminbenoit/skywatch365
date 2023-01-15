@@ -33,7 +33,7 @@ fetch("https://api.nasa.gov/planetary/apod?api_key=zX3Mvfcz7iJYZeGozyZyHqh4Z8Hct
 
     const copyright = document.createElement('h4');
     newDivSubInfos.append(copyright);
-    copyright.innerHTML = data.copyright;
+    copyright.innerHTML = data.copyright || "Unknown";
 
     const date = document.createElement('h4');
     newDivSubInfos.append(date);
